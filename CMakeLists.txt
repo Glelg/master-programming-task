@@ -16,7 +16,7 @@ target_link_libraries(catch_entry PUBLIC Catch2::Catch2)
 set(BUILD_SHARED_LIBS ON) # need for Boost::system
 find_package(Boost 1.68 REQUIRED COMPONENTS system)
 
-#add_subdirectory(iomanip)
+add_subdirectory(iomanip)
 #add_subdirectory(proxy)
 #add_subdirectory(iterator)
 #add_subdirectory(variant)
