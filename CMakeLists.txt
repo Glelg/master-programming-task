@@ -18,7 +18,7 @@ find_package(Boost 1.68 REQUIRED COMPONENTS system)
 
 add_subdirectory(iomanip)
 add_subdirectory(proxy)
-#add_subdirectory(iterator)
+add_subdirectory(iterator)
 #add_subdirectory(variant)
 #add_subdirectory(type_map)
 #add_subdirectory(csv_parser)
